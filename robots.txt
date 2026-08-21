@@ -1,0 +1,91 @@
+# ==============================================================================
+# RankOps AEO & SEO Directives Engine
+# Enterprise Search Engine & AI Model Indexing Policy
+# Generated for: new (https://new.dev)
+# ==============================================================================
+
+# Standard Search Crawlers
+User-agent: *
+Allow: /
+Disallow: /api/private/
+Disallow: /admin/
+Disallow: /_next/static/development/
+Disallow: /*.json$
+Allow: /api/public/
+Allow: /schema.json
+
+# ------------------------------------------------------------------------------
+# Real-Time AI Search Engines (Perplexity, ChatGPT Search, Claude Web)
+# ------------------------------------------------------------------------------
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# ------------------------------------------------------------------------------
+# AI Foundation Model Crawlers (Training & Semantic Embeddings)
+# ------------------------------------------------------------------------------
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: GoogleOther
+Allow: /
+
+User-agent: Google-CloudVertexBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: Meta-ExternalFetcher
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: MistralAI-Bot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+# ------------------------------------------------------------------------------
+# Sitemap Indices & AI Context Specification Pointers
+# ------------------------------------------------------------------------------
+Sitemap: https://new.dev/sitemap.xml
+Sitemap: https://new.dev/sitemap-pages.xml
+
+# LLMO & AI Context Specification Standard (llmstxt.org)
+LLM-Context: https://new.dev/llms.txt
+LLM-Full: https://new.dev/llms-full.txt
