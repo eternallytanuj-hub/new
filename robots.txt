@@ -7,24 +7,38 @@ Disallow: /admin
 # Explicit AI Crawler Approvals (AEO/LLMO)
 User-agent: GPTBot
 Allow: /
+Disallow: /api/private
+Disallow: /admin
 
 User-agent: ChatGPT-User
 Allow: /
+Disallow: /api/private
+Disallow: /admin
 
 User-agent: ClaudeBot
 Allow: /
+Disallow: /api/private
+Disallow: /admin
 
 User-agent: anthropic-ai
 Allow: /
+Disallow: /api/private
+Disallow: /admin
 
 User-agent: PerplexityBot
 Allow: /
+Disallow: /api/private
+Disallow: /admin
 
 User-agent: Google-Extended
 Allow: /
+Disallow: /api/private
+Disallow: /admin
 
 User-agent: Applebot-Extended
 Allow: /
+Disallow: /api/private
+Disallow: /admin
 
 # Sitemap & LLM Specification Pointer
 Sitemap: https://new.dev/sitemap.xml
